@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git url: 'https://github.com/maayaa1310/authentication.git', branch: 'main'
+                git url: 'https://github.com/maayaa1310/authentication.git', branch: 'master'
             }
         }
         stage('Build') {
