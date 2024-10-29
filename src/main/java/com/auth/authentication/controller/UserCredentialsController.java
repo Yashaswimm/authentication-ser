@@ -17,7 +17,7 @@ public class UserCredentialsController {
     //again testing jenkins
     @Autowired
     private AuthenticationManager authenticationManager;
-
+  // 3rd time testing jenkins
     @PostMapping("/register")
     public UserCredentials register(@RequestBody UserCredentials user) {
         return userCredentialService.register(user);
