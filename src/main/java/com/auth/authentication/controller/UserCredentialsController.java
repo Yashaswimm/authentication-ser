@@ -14,7 +14,7 @@ public class UserCredentialsController {
    //testing jenkins
     @Autowired
     private UserCredentialService userCredentialService;
-
+    //again testing jenkins
     @Autowired
     private AuthenticationManager authenticationManager;
 
